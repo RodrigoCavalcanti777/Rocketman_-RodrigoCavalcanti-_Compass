@@ -60,6 +60,53 @@ let tipo = pontos > 100 ? 'premium' : 'comum'
 
 console.log(tipo);
 
+/* if e else
+basicamente o if e else é usado para passar uma determinada condição
+no código.
+
+*/
+
+let nota = 6;
+
+if(nota <= 4){
+console.log('Voce está na recuperação');
+
+}else{
+    console.log('Voce está aprovado');
+}
+
+
+/* Switch case
+
+também é uma estrutura condicional parecida com o if..else
+
+*/
+
+let permissao
+permissao = 'comum';
+
+switch (permissao) {
+    case 'comum': 
+    console.log('Usuário Comum');
+        break;
+    case 'gerente': 
+    console.log('Voce é um gerente');
+    break;
+    case 'vip': 
+    console.log('Voce é um cliente vip');
+    break; 
+
+    default:
+    console.log('Usuario nao reconhecido')
+        break;
+}
+
+//Estrutura de repetição for
+
+for (let i = 0; i < 5; i++){
+    console.log('Estou aprendendo', i);
+}
+
 
 
 
