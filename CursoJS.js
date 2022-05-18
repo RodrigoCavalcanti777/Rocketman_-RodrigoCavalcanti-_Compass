@@ -197,16 +197,3 @@ function ValorObjeto(computador) {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
