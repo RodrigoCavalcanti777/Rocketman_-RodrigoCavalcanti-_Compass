@@ -18,5 +18,12 @@ static div(a,b){
     return a /b;
 }
 
+static media(a,b,med,somamed){
+    somamed = a+b;
+    let mediatot = somamed/2;
+    return mediatot;
+
+}
+
 
 }
