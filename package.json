@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "test": "mocha"
